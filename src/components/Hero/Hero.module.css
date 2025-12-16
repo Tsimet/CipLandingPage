@@ -1,0 +1,176 @@
+/* ==================================== */
+/* 1. LAYOUT: .hero, .hero__left-block, .hero__right-block */
+/* ==================================== */
+
+.hero {
+  /* Use flexbox to create the two-column layout */
+  display: flex;
+  min-height: 100vh; /* Full viewport height */
+  width: 100%;
+}
+
+.hero__left-block {
+  /* 50% width and set up flex-column for content vertical layout */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px; /* Padding for the content inside */
+
+  /* Background styling (Moss Image) */
+  background-image: url("../../assets/images/hero.jpg"); /* Assuming you have a moss background image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Default text color for the left side */
+}
+
+.hero__right-block {
+  /* 50% width and centered content */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+/* ==================================== */
+/* 2. LEFT BLOCK: Header, Content, Button */
+/* ==================================== */
+
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: auto; /* Pushes content down */
+}
+
+.hero__logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.hero__content {
+  /* Centers the main content block vertically in the available space */
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-bottom: 100px; /* Spacing below the content */
+}
+
+.hero__title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 900; /* Extra bold */
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+.hero__subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 40px 0;
+  max-width: 80%;
+}
+
+/* EXPLORE Button (Element: hero__explore-btn, Modifier: hero__arrow) */
+
+.hero__explore-btn {
+  /* Button Container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  /* Button Style */
+  background-color: #d8a873; /* Earthy brown color from the image */
+  color: #333; /* Dark text */
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  width: fit-content;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.hero__explore-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero__arrow {
+  /* Arrow styling: The line and the arrowhead */
+  position: absolute;
+  right: 100%; /* Start the arrow outside the button */
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.hero__arrow::after {
+  content: "";
+  position: absolute;
+  top: -4px; /* Adjust to center the tip */
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+}
+
+/* ==================================== */
+/* 3. NAVIGATION: .hero-nav, .hero-nav__list, .hero-nav__item, etc. */
+/* ==================================== */
+
+.hero-nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.hero-nav__link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.2s;
+}
+
+.hero-nav__link:hover {
+  opacity: 0.8;
+}
+
+.hero-nav__dot {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.hero-nav__link--cta {
+  background-color: #92d881;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 50px;
+  display: block;
+}
+
+.hero-nav__link--cta .hero-nav__dot {
+  display: none;
+}
+
+.hero__product-img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-basis: 100%;
+
+  height: 100vh;
+}
+.hero__left,
+.hero__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  flex-basis: 100%;
+
+  border: 5px solid black;
+}
+.hero__left {
+  color: blue;
+}
+.hero__right {
+  color: red;
+}

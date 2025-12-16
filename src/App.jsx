@@ -1,10 +1,12 @@
 import "./App.css";
-import HelloWorld from "./components/HelloWorld/HelloWorld";
+import Hero from "./components/Hero/Hero";
+import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 
 function App() {
   return (
     <>
-      <HelloWorld />
+      <Hero />
+      <WhyChooseUs />
     </>
   );
 }
