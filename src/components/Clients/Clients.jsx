@@ -1,5 +1,14 @@
 import styles from "./Clients.module.css";
+
 import goodyear from "../../assets/images/goodyear.png";
+import leoni from "../../assets/images/leoni.png";
+import bosch from "../../assets/images/bosch.png";
+import fiat from "../../assets/images/fiat.png";
+import actavis from "../../assets/images/actavis.png";
+import henkel from "../../assets/images/henkel.png";
+import heimeier from "../../assets/images/heimeier.png";
+import michelin from "../../assets/images/michelin.png";
+import coopertires from "../../assets/images/coopertires.png";
 
 function Clients() {
   return (
@@ -15,28 +24,28 @@ function Clients() {
           <img src={goodyear} alt="GoodYear" />
         </div>
         <div className={`${styles.client} ${styles.gy1}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={leoni} alt="Leoni" />
         </div>
         <div className={`${styles.client} ${styles.gy2}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={fiat} alt="Fiat" />
         </div>
         <div className={`${styles.client} ${styles.gy3}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={actavis} alt="Actavis" />
         </div>
         <div className={`${styles.client} ${styles.gy4}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={henkel} alt="Henkel" />
         </div>
         <div className={`${styles.client} ${styles.gy5}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={bosch} alt="Bosch" />
         </div>
         <div className={`${styles.client} ${styles.gy6}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={heimeier} alt="Heimeier" />
         </div>
         <div className={`${styles.client} ${styles.gy7}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={coopertires} alt="Coopertires" />
         </div>
         <div className={`${styles.client} ${styles.gy8}`}>
-          <img src={goodyear} alt="GoodYear" />
+          <img src={michelin} alt="Michelin" />
         </div>
       </div>
     </section>
