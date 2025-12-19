@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Map from "./components/Map/Map";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <WhyChooseUs />
       <AboutUs />
       <Clients />
+      <Contact />
       <Map />
       <Footer />
     </>
