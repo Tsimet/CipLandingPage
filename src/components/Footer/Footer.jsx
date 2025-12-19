@@ -16,7 +16,7 @@ function Footer() {
               <li>18400</li>
               <li>Prokuplje</li>
               <hr></hr>
-              <li>Tel: +381 (27) 322.362</li>
+              <li>Tel: +381 (27) 322 362</li>
               <li>office@cipprokuplje.rs</li>
               <li>posao@cipprokuplje.rs</li>
               <hr></hr>
@@ -27,24 +27,13 @@ function Footer() {
           </div>
           <div className={styles.footer__person}>
             <ul>
-              <li>pozicija & marketing</li>
-              <li>imepreizme</li>
+              <li>General Manager</li>
+              <li>Petar Čolović</li>
               <hr></hr>
-              <li>mejl: mejl@mejl</li>
-              <li>tel: +1231313</li>
+              <li>petar.colovic@cipprokuplje.rs</li>
+              <li>Tel: +381 (60) 6060 664</li>
             </ul>
           </div>
-          {/* <div className={styles.footer__links}>
-            <ul>
-              <li>top of the page</li>
-              <li>etc</li>
-              <li>etc</li>
-              <li>etc</li>
-              <li>etc</li>
-              <li>etc</li>
-              <li>etc</li>
-            </ul>
-          </div> */}
           <div className={styles.footer__social}>
             <span>Follow us:</span>
             <ul>
