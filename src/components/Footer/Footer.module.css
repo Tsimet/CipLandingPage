@@ -10,9 +10,9 @@ footer ul li {
   word-spacing: 0.3rem;
 }
 footer hr {
-  border: none; /* Remove default border */
-  border-top: 1px solid #ccc; /* Add a top border for the line effect */
-  width: 50px; /* Control the length of the line */
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 50px;
   margin: 1em 0;
 }
 .footer__wrapper {
@@ -48,6 +48,10 @@ footer hr {
 }
 .footer__socialLink path {
   fill: whitesmoke;
+  transition: 0.1s;
+}
+.footer__socialLink:hover path {
+  fill: var(--orange);
 }
 .footer__certifications img {
   margin: 0 0 5rem 8rem;
