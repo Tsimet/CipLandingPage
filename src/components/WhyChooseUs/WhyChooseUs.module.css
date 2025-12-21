@@ -1,16 +1,36 @@
 .reasons {
+  height: 50vh;
+  max-height: 50vh;
+  position: relative;
+  background-color: var(--dark);
+}
+.reasons__overlay {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10rem;
 
-  height: 50vh;
-  max-height: 50vh;
+  color: var(--orange);
+
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    var(--dark) 0%,
+    var(--dark) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
 }
+
 .reasons__heading {
   font-size: 7rem;
   text-transform: uppercase;
+  font-weight: 650;
 }
 .reasons__container {
   display: flex;
@@ -21,9 +41,14 @@
 }
 .reason {
   text-align: center;
+  color: var(--text);
+  font-family: Syncopate, sans-serif !important;
 }
 .reason__number {
   font-size: 5.5rem;
+}
+.reason__plus {
+  color: var(--orange);
 }
 .reason__description {
   font-size: 1.5rem;

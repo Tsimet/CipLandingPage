@@ -1,3 +1,15 @@
+:root {
+  /* --orange: #fd7e14; */
+  --orange: rgb(241, 96, 63);
+  --dark: #121f2b;
+
+  --lightblue: #f0f8ff;
+  --slate-blue: #34495e;
+  --accent: #ffc107;
+  --text: #f8f9fa;
+  --text-muted: #adb5bd;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -62,6 +74,11 @@ h3,
 h4,
 h5,
 h6 {
+  /* color: var(--dark); */
   overflow-wrap: break-word;
   text-wrap: balance;
+}
+
+html {
+  scroll-behavior: smooth;
 }

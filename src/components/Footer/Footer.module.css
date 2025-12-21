@@ -34,16 +34,22 @@ footer hr {
   max-height: 70%;
   max-width: 10%;
 }
-.footer__info,
-.footer__person,
-.footer__links,
-.footer__social {
-  /* border: 1px solid green; */
-}
 .footer__info h3 {
   font-size: 1.8rem;
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   margin-bottom: 2rem;
+}
+.footer__socialLink {
+  margin-top: 1.7rem;
+  width: 4rem;
+  height: 4rem;
+}
+.footer__socialLink path {
+  fill: whitesmoke;
+}
+.footer__certifications img {
+  margin: 0 0 5rem 8rem;
+  max-width: 65%;
 }

@@ -1,0 +1,53 @@
+.gallerySection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10rem 0 10rem 0;
+  background-color: var(--dark);
+}
+.gallery,
+.certificates {
+  letter-spacing: 0.7px;
+  border: 2px solid var(--orange);
+  font-weight: bolder;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+  padding: 2rem 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.gallery::before,
+.certificates::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg,
+    transparent,
+    transparent 30%,
+    var(--orange)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.gallery:hover,
+.certificates:hover {
+  transform: scale(1.05);
+}
+
+.gallery:hover::before,
+.certificates:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}

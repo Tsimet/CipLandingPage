@@ -1,10 +1,12 @@
 .clients {
+  padding: 4rem 0;
 }
 .clients__heading {
-  font-weight: 800;
+  font-weight: 650;
   font-size: 48px;
   line-height: 64px;
   letter-spacing: 0%;
+  color: var(--dark);
   text-align: center;
 }
 .clients__description {
@@ -23,7 +25,6 @@
 
   margin: 4.5rem auto;
   max-width: 70%;
-  /* border: 1px solid red; */
 }
 .client {
   width: 17rem;
@@ -33,7 +34,6 @@
   text-align: center;
 
   font-size: 2rem;
-  /* background-color: olive; */
   color: white;
   font-weight: 700;
 

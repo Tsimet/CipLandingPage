@@ -12,12 +12,12 @@ import coopertires from "../../assets/images/coopertires.png";
 
 function Clients() {
   return (
-    <section className={styles.clients}>
+    <section className={styles.clients} id="clients">
       <div>
-        <h4 className={styles.clients__heading}>our clients</h4>
-        <h5 className={styles.clients__description}>
+        <h4 className={styles.clients__heading}>Our Clients</h4>
+        {/* <h5 className={styles.clients__description}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo.
-        </h5>
+        </h5> */}
       </div>
       <div className={styles.clients__grid}>
         <div className={`${styles.client} ${styles.gy}`}>
