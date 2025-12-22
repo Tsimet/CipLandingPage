@@ -1,11 +1,10 @@
-/* General Styles */
 .navbar {
-  background-color: var(--dark); /* Dark background similar to the site */
+  background-color: var(--dark);
   padding: 15px 0;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000;
+  z-index: 10;
   font-family: "Arial", sans-serif;
 }
 
@@ -18,7 +17,6 @@
   padding: 0 20px;
 }
 
-/* Brand/Logo */
 .navbar__brand {
   display: flex;
   align-items: center;

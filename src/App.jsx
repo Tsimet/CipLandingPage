@@ -1,4 +1,6 @@
 import "./App.css";
+import { useState, lazy, Suspense } from "react";
+
 import AboutUs from "./components/AboutUs/AboutUs";
 import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
@@ -8,8 +10,16 @@ import Map from "./components/Map/Map";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Navigation from "./components/Navigation/Navigation";
+const Pictures = lazy(() => import("./components/Pictures/Pictures"));
+const Certificates = lazy(() =>
+  import("./components/Certificates/Certificates")
+);
+
+import Modal from "./components/Modal/Modal";
 
 function App() {
+  const [activeGallery, setActiveGallery] = useState(null);
+
   return (
     <>
       <Navigation />
@@ -17,7 +27,19 @@ function App() {
       <WhyChooseUs />
       <AboutUs />
       <Clients />
-      <Gallery />
+      <Gallery onSelectGallery={setActiveGallery} />
+      <Suspense fallback={<div className="loader">Loading Gallery...</div>}>
+        {activeGallery == "pictures" && (
+          <Modal onClose={() => setActiveGallery(null)}>
+            <Pictures />
+          </Modal>
+        )}
+        {activeGallery == "certificates" && (
+          <Modal onClose={() => setActiveGallery(null)}>
+            <Certificates />
+          </Modal>
+        )}
+      </Suspense>
       <Contact />
       <Map />
       <Footer />

@@ -1,0 +1,15 @@
+.swiperss {
+  background-color: var(--dark);
+  max-height: 80vh;
+}
+.swiperSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  height: 80vh;
+}
+.swiperSlide img {
+  max-width: 100%;
+  max-height: 100%;
+}

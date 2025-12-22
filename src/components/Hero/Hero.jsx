@@ -5,7 +5,7 @@ import heroVideo from "../../assets/video/hero__video.mp4";
 export default function Hero() {
   return (
     <header className={styles.hero} id="hero">
-      <video autoplay muted loop className={styles.hero__video}>
+      <video autoPlay muted loop className={styles.hero__video}>
         <source src={heroVideo} type="video/mp4" />
       </video>
 

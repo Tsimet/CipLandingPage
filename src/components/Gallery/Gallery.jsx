@@ -1,10 +1,20 @@
 import styles from "./Gallery.module.css";
 
-function Gallery() {
+function Gallery({ onSelectGallery }) {
   return (
     <section className={styles.gallerySection} id="gallery">
-      <button className={styles.gallery}>Our Gallery &rarr;</button>
-      <button className={styles.certificates}>Our certificates &rarr;</button>
+      <button
+        onClick={() => onSelectGallery("pictures")}
+        className={styles.gallery}
+      >
+        Our Gallery &rarr;
+      </button>
+      <button
+        onClick={() => onSelectGallery("certificates")}
+        className={styles.certificates}
+      >
+        Our certificates &rarr;
+      </button>
     </section>
   );
 }

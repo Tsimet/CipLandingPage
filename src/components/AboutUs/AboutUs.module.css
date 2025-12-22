@@ -44,11 +44,14 @@
   min-height: 28rem;
 
   border-radius: 16px;
-  border: 1px solid var(--orange);
 
   padding: 3.2rem;
 
-  transition: 0.4s;
+  background-color: white;
+  transition: 0.2s;
+  cursor: default;
+  /* box-shadow: 0.5rem 0.5rem 0.5rem grey, -0.5rem 0.5rem 0.5rem grey; */
+  box-shadow: 0 0 1rem var(--dark);
 }
 
 .about__icon {
@@ -59,14 +62,11 @@
   top: 1.2rem;
 }
 .about__icon path {
-  /* fill: var(--orange); */
   transition: 0.3s;
 }
 
 .about__square:hover {
-  background-color: white;
-  box-shadow: 0.3rem 0.3rem 0.5rem lightgrey;
-  border: 1px solid #ccd2e980;
+  box-shadow: 0rem 0rem 0.2rem var(--orange);
 }
 .about__square:hover > .about__square__heading {
   color: var(--orange);

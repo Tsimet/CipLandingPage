@@ -2,8 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 10rem 0 10rem 0;
-  background-color: var(--dark);
+  padding: 20rem 0 20rem 0;
+  /* background-color: var(--dark); */
+  background-image: url("../../assets/images/hero.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 .gallery,
 .certificates {
@@ -22,6 +25,8 @@
   overflow: hidden;
   border-radius: 5px;
   transition: all 0.5s ease;
+
+  background-color: var(--dark);
 }
 .gallery::before,
 .certificates::before {

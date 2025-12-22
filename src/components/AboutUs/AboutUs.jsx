@@ -71,12 +71,11 @@ function AboutUs() {
             Industrial machinery
           </h5>
           <p className={styles.about__square__description}>
-            In the last fifteen years we have worked on equipment installation
-            in tire and chemical industry. The works includes equipment
-            installation in production sectors from the big silos on the
-            beginning of the process, trough mixing systems, batch of machinery,
-            extruders, cutters, up to the presses on the end of the production
-            lines
+            We have worked on equipment installation in tire and chemical
+            industry. The works includes equipment installation in production
+            sectors from the big silos on the beginning of the process, trough
+            mixing systems, batch of machinery, extruders, cutters, up to the
+            presses on the end of the production lines
           </p>
         </div>
         <div className={styles.about__square}>

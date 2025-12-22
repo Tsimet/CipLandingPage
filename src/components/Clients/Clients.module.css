@@ -1,12 +1,14 @@
 .clients {
-  padding: 4rem 0;
+  padding: 6rem 0;
+  background-color: var(--dark);
 }
 .clients__heading {
+  margin-bottom: 4rem;
   font-weight: 650;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
   letter-spacing: 0%;
-  color: var(--dark);
+  color: var(--text);
   text-align: center;
 }
 .clients__description {
@@ -23,7 +25,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
-  margin: 4.5rem auto;
+  margin: 7.5rem auto;
   max-width: 70%;
 }
 .client {

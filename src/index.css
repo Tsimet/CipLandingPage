@@ -1,6 +1,5 @@
 :root {
-  /* --orange: #fd7e14; */
-  --orange: rgb(241, 96, 63);
+  --orange: #f1603f;
   --dark: #121f2b;
 
   --lightblue: #f0f8ff;
@@ -8,6 +7,10 @@
   --accent: #ffc107;
   --text: #f8f9fa;
   --text-muted: #adb5bd;
+
+  --swiper-navigation-color: var(--orange);
+  --swiper-pagination-color: var(--orange);
+  --swiper-pagination-bullet-inactive-color: var(--text-muted);
 }
 
 button {

@@ -1,0 +1,7 @@
+.swiperss {
+  background-color: var(--dark);
+}
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+}
