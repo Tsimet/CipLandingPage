@@ -77,11 +77,16 @@ h3,
 h4,
 h5,
 h6 {
-  /* color: var(--dark); */
   overflow-wrap: break-word;
   text-wrap: balance;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 78rem) {
+  body {
+    overflow-x: hidden;
+  }
 }

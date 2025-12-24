@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo.png";
 function Navigation() {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.container}>
+      <div className={styles.navbar__container}>
         <a href="#hero" className={styles.navbar__brand}>
           <img src={logo} alt="Cip Prokuplje" className={styles.logo}></img>
           <span className={styles.logo__name}>Cip Prokuplje</span>

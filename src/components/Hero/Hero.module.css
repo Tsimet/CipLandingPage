@@ -50,7 +50,7 @@
 }
 
 .hero__logo {
-  width: 150px; /* Adjust size as needed */
+  width: 150px;
   margin: 20px 0;
 }
 
@@ -61,7 +61,6 @@
   opacity: 0.9;
 }
 
-/* Optional Button Styling */
 .btn__scroll {
   display: inline-block;
   margin-top: 30px;
@@ -79,11 +78,14 @@
   color: var(--orange);
 }
 
-@media (max-width: 768px) {
-  .hero-content h1 {
+@media (max-width: 75rem) {
+  .hero__content h1 {
     font-size: 2.5rem;
   }
-  .hero-content h3 {
-    font-size: 1.1rem;
+  .hero__content h3 {
+    font-size: 0rem;
+  }
+  .btn__scroll {
+    font-size: 1.2rem;
   }
 }

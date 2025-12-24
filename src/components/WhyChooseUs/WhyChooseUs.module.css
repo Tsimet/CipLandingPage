@@ -53,3 +53,20 @@
 .reason__description {
   font-size: 1.5rem;
 }
+
+@media (max-width: 78rem) {
+  .reasons {
+    height: 100vh;
+    max-height: 100vh;
+  }
+  .reasons__heading {
+    font-size: 4rem;
+  }
+  .reasons__overlay {
+    top: 0;
+    gap: 3rem;
+  }
+  .reasons__container {
+    flex-direction: column;
+  }
+}
