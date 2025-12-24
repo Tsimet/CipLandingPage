@@ -1,6 +1,6 @@
 .reasons {
-  height: 50vh;
-  max-height: 50vh;
+  height: 80vh;
+  max-height: 80vh;
   position: relative;
   background-color: var(--dark);
 }
@@ -38,6 +38,7 @@
   justify-content: space-between;
   width: 70%;
   flex-direction: row;
+  gap: 10rem;
 }
 .reason {
   text-align: center;
@@ -56,17 +57,32 @@
 
 @media (max-width: 78rem) {
   .reasons {
-    height: 100vh;
-    max-height: 100vh;
+    height: 150vh;
+    max-height: 150vh;
   }
   .reasons__heading {
     font-size: 4rem;
   }
   .reasons__overlay {
-    top: 0;
+    top: 10%;
+    padding-bottom: 20rem;
+
     gap: 3rem;
   }
   .reasons__container {
     flex-direction: column;
+  }
+  .reason__number {
+    font-size: 7rem;
+  }
+  .reason__description {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 41rem) {
+  .reasons__heading {
+    font-size: 3rem;
+    margin-bottom: 10rem;
   }
 }

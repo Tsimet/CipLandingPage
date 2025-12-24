@@ -11,6 +11,7 @@
 .about__description {
   text-transform: capitalize;
   text-align: center;
+  margin: 5rem 0 10rem 0;
 }
 .about__heading {
   font-size: 7rem;
@@ -31,7 +32,7 @@
 
   margin: 3rem;
 
-  max-width: 70%;
+  max-width: 90rem;
 }
 .about__square {
   display: flex;
@@ -50,7 +51,6 @@
   background-color: white;
   transition: 0.2s;
   cursor: default;
-  /* box-shadow: 0.5rem 0.5rem 0.5rem grey, -0.5rem 0.5rem 0.5rem grey; */
   box-shadow: 0 0 1rem var(--dark);
 }
 
@@ -108,8 +108,8 @@
 }
 .about__contact h5 {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 2rem;
+  line-height: 3.2rem;
   letter-spacing: 2%;
   text-align: center;
   text-transform: uppercase;
@@ -117,8 +117,8 @@
 }
 .about__contact h4 {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 3.6rem;
+  line-height: 4rem;
   letter-spacing: -3%;
   text-align: center;
   color: white;
@@ -145,4 +145,29 @@
 
 .about__contact:hover > .about__contact button {
   color: var(--orange);
+}
+
+@media (max-width: 78rem) {
+  .about {
+    padding: 20rem 0 10rem 0;
+  }
+  .about__contact {
+    width: 90%;
+  }
+  .about__contact h4 {
+    font-size: 3rem;
+  }
+  .about__contact h5 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 41rem) {
+  .about__heading {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .about__square {
+    width: 30rem;
+  }
 }

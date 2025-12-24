@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 20rem 0 20rem 0;
-  /* background-color: var(--dark); */
   background-image: url("../../assets/images/hero.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -55,4 +54,15 @@
 .certificates:hover::before {
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
+}
+
+@media (max-width: 78rem) {
+  .gallerySection {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .gallery,
+  .certificates {
+    width: 90%;
+  }
 }
