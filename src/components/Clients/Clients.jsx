@@ -12,7 +12,7 @@ import coopertires from "../../assets/images/coopertires.png";
 
 function Clients() {
   return (
-    <section className={styles.clientsSection}>
+    <section className={styles.clientsSection} id="clients">
       <h2>Our Clients</h2>
       <div className={styles.carousel}>
         <div className={styles.carousel__group}>

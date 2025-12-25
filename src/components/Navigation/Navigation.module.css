@@ -52,7 +52,7 @@
 }
 
 .nav__links a:hover {
-  color: #fff;
+  color: var(--orange);
 }
 
 .lang__switch {
@@ -77,10 +77,15 @@
 
 @media (max-width: 78rem) {
   .navbar {
+    position: relative;
     padding: 1rem 0.5rem;
   }
   .navbar__container {
     padding: 0;
+    text-align: center;
+  }
+  .navbar__brand {
+    margin: 0 auto;
   }
   .menu__toggle {
     display: flex;

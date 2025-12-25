@@ -10,11 +10,11 @@ function Navigation() {
           <span className={styles.logo__name}>Cip Prokuplje</span>
         </a>
 
-        <button className={styles.menu__toggle} aria-label="Toggle navigation">
+        {/* <button className={styles.menu__toggle} aria-label="Toggle navigation">
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
-        </button>
+        </button> */}
 
         <ul className={styles.nav__links}>
           <li>
