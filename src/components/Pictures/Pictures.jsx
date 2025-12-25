@@ -6,8 +6,6 @@ import "swiper/css/pagination";
 import "swiper/css";
 import "swiper/css/scrollbar";
 
-// import Navigation from "./Navigation/Navigation";
-
 import styles from "./Pictures.module.css";
 
 import p1 from "../../assets/images/p1.jpg";

@@ -12,40 +12,82 @@ import coopertires from "../../assets/images/coopertires.png";
 
 function Clients() {
   return (
-    <section className={styles.clients} id="clients">
-      <div>
-        <h4 className={styles.clients__heading}>Our Clients</h4>
-        {/* <h5 className={styles.clients__description}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo.
-        </h5> */}
-      </div>
-      <div className={styles.clients__grid}>
-        <div className={`${styles.client} ${styles.gy}`}>
-          <img src={goodyear} alt="GoodYear" />
+    <section className={styles.clientsSection}>
+      <h2>Our Clients</h2>
+      <div className={styles.carousel}>
+        <div className={styles.carousel__group}>
+          <div className={styles.carousel__card}>
+            <img src={bosch} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://climatecontrol.imiplc.com/">
+              <img src={heimeier} alt="Heimeier" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.goodyear.com/">
+              <img src={goodyear} alt="GoodYear" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.leoni.com/">
+              <img src={leoni} alt="Leoni" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.fiat.com/">
+              <img src={fiat} alt="Fiat" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.actavis.rs/">
+              <img src={actavis} alt="Actavis" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.henkel.com/">
+              <img src={henkel} alt="Henkel" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.michelinman.com/">
+              <img src={michelin} alt="Michelin" />
+            </a>
+          </div>
+          <div className={styles.carousel__card}>
+            <a href="https://www.coopertire.co.uk/">
+              <img src={coopertires} alt="Coopertires" />
+            </a>
+          </div>
         </div>
-        <div className={`${styles.client} ${styles.gy1}`}>
-          <img src={leoni} alt="Leoni" />
-        </div>
-        <div className={`${styles.client} ${styles.gy2}`}>
-          <img src={fiat} alt="Fiat" />
-        </div>
-        <div className={`${styles.client} ${styles.gy3}`}>
-          <img src={actavis} alt="Actavis" />
-        </div>
-        <div className={`${styles.client} ${styles.gy4}`}>
-          <img src={henkel} alt="Henkel" />
-        </div>
-        <div className={`${styles.client} ${styles.gy5}`}>
-          <img src={bosch} alt="Bosch" />
-        </div>
-        <div className={`${styles.client} ${styles.gy6}`}>
-          <img src={heimeier} alt="Heimeier" />
-        </div>
-        <div className={`${styles.client} ${styles.gy7}`}>
-          <img src={coopertires} alt="Coopertires" />
-        </div>
-        <div className={`${styles.client} ${styles.gy8}`}>
-          <img src={michelin} alt="Michelin" />
+        <div aria-hidden className={styles.carousel__group}>
+          <div className={styles.carousel__card}>
+            <img src={bosch} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={heimeier} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={goodyear} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={leoni} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={fiat} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={actavis} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={henkel} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={michelin} alt="" />
+          </div>
+          <div className={styles.carousel__card}>
+            <img src={coopertires} alt="" />
+          </div>
         </div>
       </div>
     </section>
