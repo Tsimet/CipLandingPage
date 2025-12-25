@@ -115,7 +115,9 @@ function AboutUs() {
       <div className={styles.about__contact}>
         <h5>piqued your interest?</h5>
         <h4>Send us a message!</h4>
-        <button>Contact Us</button>
+        <button>
+          <a href="#contact">Contact Us</a>
+        </button>
       </div>
     </section>
   );
