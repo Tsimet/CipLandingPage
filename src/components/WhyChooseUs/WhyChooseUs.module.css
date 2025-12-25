@@ -47,6 +47,10 @@
 }
 .reason__number {
   font-size: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 .reason__plus {
   color: var(--orange);

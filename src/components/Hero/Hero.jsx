@@ -12,7 +12,7 @@ export default function Hero() {
       <div className={styles.hero__overlay}></div>
 
       <div className={styles.hero__content}>
-        <h1>Innovation and Quality</h1>
+        <h1>relocation and installation</h1>
         <img src={logo} alt="CIP Logo" className={styles.hero__logo}></img>
         <h3>Realiable Partner In Industry</h3>
         <a href="#about" className={styles.btn__scroll}>
