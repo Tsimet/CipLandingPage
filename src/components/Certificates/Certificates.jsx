@@ -28,19 +28,19 @@ export default function Certificates() {
         className={styles.swiperss}
       >
         <SwiperSlide className={styles.swiperSlide}>
-          <img src={c1} alt="" />
+          <img src={c1} alt="ISO certificate DG-0335.2016.002" />
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <img src={c2} alt="" />
+          <img src={c2} alt="ISO Certificate 9001:2015" />
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <img src={c3} alt="" />
+          <img src={c3} alt="ISO Certificate 14001:2015" />
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <img src={c4} alt="" />
+          <img src={c4} alt="ISO Certificate 45001:2018" />
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <img src={c5} alt="" />
+          <img src={c5} alt="Excellent SME Certificate" />
         </SwiperSlide>
       </Swiper>
     </>

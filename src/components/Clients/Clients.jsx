@@ -17,7 +17,9 @@ function Clients() {
       <div className={styles.carousel}>
         <div className={styles.carousel__group}>
           <div className={styles.carousel__card}>
-            <img src={bosch} alt="" />
+            <a href="https://www.goodyear.com/">
+              <img src={goodyear} alt="GoodYear" className={styles.goodyear} />
+            </a>
           </div>
           <div className={styles.carousel__card}>
             <a href="https://climatecontrol.imiplc.com/">
@@ -25,9 +27,7 @@ function Clients() {
             </a>
           </div>
           <div className={styles.carousel__card}>
-            <a href="https://www.goodyear.com/">
-              <img src={goodyear} alt="GoodYear" />
-            </a>
+            <img src={bosch} alt="Bosch" />
           </div>
           <div className={styles.carousel__card}>
             <a href="https://www.leoni.com/">
@@ -36,17 +36,17 @@ function Clients() {
           </div>
           <div className={styles.carousel__card}>
             <a href="https://www.fiat.com/">
-              <img src={fiat} alt="Fiat" />
+              <img src={fiat} alt="Fiat" className={styles.fiat} />
             </a>
           </div>
           <div className={styles.carousel__card}>
             <a href="https://www.actavis.rs/">
-              <img src={actavis} alt="Actavis" />
+              <img src={actavis} alt="Actavis" className={styles.actavis} />
             </a>
           </div>
           <div className={styles.carousel__card}>
             <a href="https://www.henkel.com/">
-              <img src={henkel} alt="Henkel" />
+              <img src={henkel} alt="Henkel" className={styles.henkel} />
             </a>
           </div>
           <div className={styles.carousel__card}>
@@ -62,31 +62,47 @@ function Clients() {
         </div>
         <div aria-hidden className={styles.carousel__group}>
           <div className={styles.carousel__card}>
-            <img src={bosch} alt="" />
+            <a href="https://www.goodyear.com/">
+              <img src={goodyear} alt="GoodYear" className={styles.goodyear} />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={heimeier} alt="" />
+            <a href="https://climatecontrol.imiplc.com/">
+              <img src={heimeier} alt="Heimeier" />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={goodyear} alt="" />
+            <img src={bosch} alt="Bosch" />
           </div>
           <div className={styles.carousel__card}>
-            <img src={leoni} alt="" />
+            <a href="https://www.leoni.com/">
+              <img src={leoni} alt="Leoni" />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={fiat} alt="" />
+            <a href="https://www.fiat.com/">
+              <img src={fiat} alt="Fiat" className={styles.fiat} />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={actavis} alt="" />
+            <a href="https://www.actavis.rs/">
+              <img src={actavis} alt="Actavis" className={styles.actavis} />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={henkel} alt="" />
+            <a href="https://www.henkel.com/">
+              <img src={henkel} alt="Henkel" className={styles.henkel} />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={michelin} alt="" />
+            <a href="https://www.michelinman.com/">
+              <img src={michelin} alt="Michelin" />
+            </a>
           </div>
           <div className={styles.carousel__card}>
-            <img src={coopertires} alt="" />
+            <a href="https://www.coopertire.co.uk/">
+              <img src={coopertires} alt="Coopertires" />
+            </a>
           </div>
         </div>
       </div>

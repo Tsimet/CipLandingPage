@@ -12,7 +12,7 @@
   width: 100rem;
   display: flex;
   overflow-x: auto;
-  -webkit-mask-image: linear-gradient(
+  mask-image: linear-gradient(
     to right,
     transparent,
     black 10%,
@@ -49,6 +49,20 @@
   text-align: center;
   align-content: center;
   border-radius: 2rem;
+}
+
+.fiat {
+  max-width: 12rem;
+}
+.goodyear {
+  width: 18rem;
+}
+
+.actavis {
+  max-width: 15rem;
+}
+.henkel {
+  max-width: 17rem;
 }
 
 @keyframes spin {

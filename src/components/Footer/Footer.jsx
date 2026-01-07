@@ -55,10 +55,10 @@ function Footer() {
           <div className={styles.footer__certifications}>
             <ul>
               <li>
-                <img src={excellent} alt="" />
+                <img src={excellent} alt="Excellent Certified" />
               </li>
               <li>
-                <img src={tuvNord} alt="" />
+                <img src={tuvNord} alt="TuvNord Certified" />
               </li>
             </ul>
           </div>
