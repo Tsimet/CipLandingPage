@@ -51,6 +51,7 @@
 
 .hero__logo {
   width: 150px;
+  max-width: 150px;
   margin: 20px 0;
 }
 
