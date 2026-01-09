@@ -24,20 +24,20 @@ function WhyChooseUs() {
         <div className={styles.reasons__container}>
           <div className={styles.reason}>
             <h3 className={styles.reason__number}>
-              <StatItem end={40} />
+              <StatItem end={70} />
               <span className={styles.reason__plus}>+</span>
             </h3>
             <nav className={styles.reason__description}>satisfied clients</nav>
           </div>
           <div className={styles.reason}>
             <h3 className={styles.reason__number}>
-              <StatItem end={37} />
+              <StatItem end={36} />
             </h3>
             <nav className={styles.reason__description}>years of expertise</nav>
           </div>
           <div className={styles.reason}>
             <h3 className={styles.reason__number}>
-              <StatItem end={100} />
+              <StatItem end={500} />
               <span className={styles.reason__plus}>+</span>
             </h3>
             <nav className={styles.reason__description}>projects completed</nav>
