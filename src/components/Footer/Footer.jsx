@@ -40,7 +40,7 @@ function Footer() {
             <span>Follow us:</span>
             <ul>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/company/%C4%8Dip-d-o-o/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
