@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import logo from "../../assets/images/logo.png";
-import logo__small from "../../assets/images/logo-old.png";
+import logo__small from "../../assets/images/logo_small.png";
 import heroVideo from "../../assets/video/hero__video.mp4";
 
 export default function Hero() {
