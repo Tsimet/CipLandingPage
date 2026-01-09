@@ -7,7 +7,7 @@ function Navigation() {
       <div className={styles.navbar__container}>
         <a href="#hero" className={styles.navbar__brand}>
           <img src={logo} alt="Cip Prokuplje" className={styles.logo}></img>
-          <span className={styles.logo__name}>Cip Prokuplje</span>
+          <span className={styles.logo__name}>Cip</span>
         </a>
 
         {/* <button className={styles.menu__toggle} aria-label="Toggle navigation">
