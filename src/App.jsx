@@ -16,6 +16,7 @@ const Certificates = lazy(() =>
 );
 
 import Modal from "./components/Modal/Modal";
+import AboutUsContact from "./components/AboutUsContact/AboutUsContact";
 
 function App() {
   const [activeGallery, setActiveGallery] = useState(null);
@@ -26,6 +27,8 @@ function App() {
       <Hero />
       <WhyChooseUs />
       <AboutUs />
+      <AboutUsContact />
+
       <Clients />
       <Gallery onSelectGallery={setActiveGallery} />
       <Suspense fallback={<div className="loader">Loading Gallery...</div>}>
