@@ -1,6 +1,31 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 import styles from "./Contact.module.css";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_sava_test",
+        "template_deh8esi",
+        form.current,
+        "VndQg4cRHxTzGV3pw"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <section className={styles.contact} id="contact">
       <div className={styles.contact__info}>
@@ -12,17 +37,19 @@ function Contact() {
           thoroughly.
         </p>
       </div>
-      <form action="" className={styles.contact__form}>
+      <form ref={form} onSubmit={sendEmail} className={styles.contact__form}>
         <div className={styles.row}>
           <input
             type="text"
             placeholder="Your Name"
             className={styles.contact__name}
+            name="name"
           />
           <input
             type="email"
             placeholder="Your Email"
             className={styles.contact__email}
+            name="email"
           />
         </div>
         <input
@@ -31,10 +58,10 @@ function Contact() {
           className={styles.contact__subject}
         />
         <textarea
-          name="Message"
           id=""
           placeholder="Your Message"
           className={styles.contact__message}
+          name="message"
         ></textarea>
         <input
           type="submit"
