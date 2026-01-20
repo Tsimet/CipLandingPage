@@ -14,7 +14,6 @@ export default function Hero() {
 
       <div className={styles.hero__content}>
         <h1>relocation and installation</h1>
-        {/* <img src={logo} alt="CIP Logo" className={styles.hero__logo}></img> */}
         <picture className={styles.hero__logo}>
           <source media="(max-width: 780px)" srcSet={logo__small} />
           <img

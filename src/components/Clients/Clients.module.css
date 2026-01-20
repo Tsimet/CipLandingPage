@@ -1,9 +1,9 @@
 .clientsSection {
-  margin: 5rem 0;
+  padding: 10rem 0;
 }
 .clientsSection h2 {
   font-size: 5rem;
-  color: var(--dark);
+  color: var(--lightblue);
   font-weight: 650;
   text-align: center;
 }
@@ -12,6 +12,7 @@
   width: 100rem;
   display: flex;
   overflow-x: auto;
+  background-color: white;
   mask-image: linear-gradient(
     to right,
     transparent,
