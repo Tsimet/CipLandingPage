@@ -118,4 +118,8 @@
   .about__square {
     width: 30rem;
   }
+  .about__square__heading {
+    font-size: 2rem;
+    width: 85%;
+  }
 }
