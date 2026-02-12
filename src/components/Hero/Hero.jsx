@@ -13,7 +13,7 @@ export default function Hero() {
       <div className={styles.hero__overlay}></div>
 
       <div className={styles.hero__content}>
-        <h1>relocation and installation</h1>
+        <h1>installation & relocation</h1>
         <picture className={styles.hero__logo}>
           <source media="(max-width: 780px)" srcSet={logo__small} />
           <img
@@ -23,7 +23,9 @@ export default function Hero() {
             className={styles.hero__logo}
           />
         </picture>
-        <h3>Realiable Partner In Industry</h3>
+        <h3>
+          installing your future here <br /> moving your industry everywhere
+        </h3>
         <a href="#about" className={styles.btn__scroll}>
           More About Us
         </a>

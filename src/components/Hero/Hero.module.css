@@ -57,9 +57,10 @@
 
 .hero__content h3 {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 2px;
   opacity: 0.9;
+  text-transform: uppercase;
 }
 
 .btn__scroll {
