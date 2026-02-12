@@ -8,11 +8,9 @@ import "swiper/css/scrollbar";
 
 import styles from "./Certificates.module.css";
 
-import c1 from "../../assets/images/certificates/cert1.jpg";
-import c2 from "../../assets/images/certificates/cert2.jpg";
-import c3 from "../../assets/images/certificates/cert3.jpg";
-import c4 from "../../assets/images/certificates/cert4.jpg";
-import c5 from "../../assets/images/certificates/cert5.jpg";
+import c1 from "../../assets/images/certificates/cert-9001-en.jpg";
+import c2 from "../../assets/images/certificates/cert-14001-en.jpg";
+import c3 from "../../assets/images/certificates/cert-45001-en.jpg";
 
 export default function Certificates() {
   return (
@@ -35,12 +33,6 @@ export default function Certificates() {
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
           <img src={c3} alt="ISO Certificate 14001:2015" />
-        </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
-          <img src={c4} alt="ISO Certificate 45001:2018" />
-        </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
-          <img src={c5} alt="Excellent SME Certificate" />
         </SwiperSlide>
       </Swiper>
     </>
