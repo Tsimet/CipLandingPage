@@ -1,13 +1,13 @@
 import styles from "./Hero.module.css";
 import logo from "../../assets/images/logo.png";
 import logo__small from "../../assets/images/logo_small.png";
-import heroVideo from "../../assets/video/hero__video.mp4";
+import heroVideo from "../../assets/video/hero_video.webm";
 
 export default function Hero() {
   return (
     <header className={styles.hero} id="hero">
       <video autoPlay muted loop className={styles.hero__video}>
-        <source src={heroVideo} type="video/mp4" />
+        <source src={heroVideo} type="video/webm" />
       </video>
 
       <div className={styles.hero__overlay}></div>
