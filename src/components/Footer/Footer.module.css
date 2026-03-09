@@ -41,10 +41,15 @@ footer hr {
   letter-spacing: 0.2rem;
   margin-bottom: 2rem;
 }
+.footer__social ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 .footer__socialLink {
   margin-top: 1.7rem;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .footer__socialLink path {
   fill: whitesmoke;
@@ -80,7 +85,6 @@ footer hr {
   .footer__logo img {
     max-height: 100%;
     max-width: 30%;
-    /* margin: 0 auto; */
   }
   .footer__content {
     display: flex;
@@ -98,6 +102,11 @@ footer hr {
   }
   .footer__certifications img {
     margin: 3rem 0;
+  }
+  .footer__social ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   .footer__social ul li {
     text-align: center;
