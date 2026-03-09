@@ -6,6 +6,7 @@
   background-image: url("../../assets/images/hero.jpg");
   background-attachment: fixed;
   background-size: cover;
+  background-position: 50% 30%;
 }
 .gallery,
 .certificates {
