@@ -1,59 +1,38 @@
 .clientsSection {
+  position: relative;
   padding: 10rem 0;
   background: url("../../assets/images/shaking_hands.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: 55% 10%;
+  background-position: 70% 10%;
+  z-index: 2;
 }
+.clientsSection__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
 .clientsSection h2 {
+  z-index: 3;
   font-size: 5rem;
   color: var(--lightblue);
   font-weight: 650;
   text-align: center;
 }
-.carousel {
-  margin: 10rem auto;
-  width: 100rem;
-  display: flex;
-  overflow-x: auto;
+.clientsSection__swiper {
   background-color: white;
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 10%,
-    black 90%,
-    transparent
-  );
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 10%,
-    black 90%,
-    transparent
-  );
+  margin: 7rem 0;
+  padding: 3rem 0;
 }
-.carousel::-webkit-scrollbar {
-  display: none;
-}
-
-.carousel__group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  animation: spin 13s infinite linear;
-  padding-right: 1rem;
-  border-top: 3px solid var(--orange);
-  border-bottom: 3px solid var(--orange);
-}
-.carousel__card {
-  height: 30rem;
-
-  flex: 0 0 20rem;
-  padding: 1rem;
-  text-align: center;
-  align-content: center;
-  border-radius: 2rem;
+.clientsSection__swiperSlide {
+  margin: auto auto;
 }
 
 .fiat {
