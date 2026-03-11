@@ -12,7 +12,10 @@
   --swiper-pagination-color: var(--orange);
   --swiper-pagination-bullet-inactive-color: var(--text-muted);
 }
-
+body::selection {
+  background-color: var(--orange);
+  color: white;
+}
 button {
   cursor: pointer;
   border: none;
