@@ -17,11 +17,15 @@ function Footer() {
               <li>Dragoljuba Rakića</li>
               <li>18400</li>
               <li>Prokuplje</li>
-              <hr></hr>
+              <li>
+                <hr />
+              </li>
               <li>Tel: +381 (27) 322 362</li>
               <li>office@cipprokuplje.rs</li>
               <li>posao@cipprokuplje.rs</li>
-              <hr></hr>
+              <li>
+                <hr />
+              </li>
               <li>VAT Number: 100952163</li>
               <li> CRN: 06082157</li>
               <li>SIC: 2825</li>
@@ -31,7 +35,9 @@ function Footer() {
             <ul>
               <li>General Manager</li>
               <li>Petar Čolović</li>
-              <hr></hr>
+              <li>
+                <hr />
+              </li>
               <li>petar.colovic@cipprokuplje.rs</li>
               <li>Tel: +381 (60) 6060 664</li>
             </ul>
@@ -44,6 +50,7 @@ function Footer() {
                   href="https://www.linkedin.com/company/%C4%8Dip-d-o-o/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Check out our LinkedIn page!"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -59,6 +66,7 @@ function Footer() {
                   href="https://www.instagram.com/cip_doo?igsh=aHZlMW42NWdqNWM3/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Follow us on Instagram!"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
